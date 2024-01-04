@@ -5,5 +5,5 @@ services:
     build: .
     image: fastapi
     ports:
-      - "80:80"
+      - "8123:8000"
     restart: always
